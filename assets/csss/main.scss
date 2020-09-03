@@ -1,0 +1,31 @@
+#head {
+  background: #ffc000;
+  height: 134px;
+}
+  img{
+    height: 134px;
+    width: 230px;
+  }
+  strong{
+    padding-left: 15px;
+    color: #001f60;
+    font-size: 36px;
+    font-weight: 800;
+  }
+  .pad{
+    color: #001f60;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0
+  }
+  h2{
+    color: #001f60;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+.container-fluid{
+padding: 0 !important;
+}

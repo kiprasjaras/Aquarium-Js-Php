@@ -1,0 +1,159 @@
+/*
+ * Custom Styles
+ */
+.bg-black {
+    background-color: black !important;
+}
+
+.bg-trans {
+    background: rgba(0,0,0,.3);
+}
+
+.bg-dark-trans {
+    background: rgba(0,0,0,.7);
+}
+
+.border-green {
+    border-color: #9fae21 !important;
+}
+
+/*
+ * Navbar
+ */
+.nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.fa-facebook {
+    font-size: larger;
+}
+
+.active .nav-link {
+    color: #9fae21 !important;
+}
+
+.active .nav-link:hover {
+    color: #00A53C !important;
+}
+
+.dropdown-menu {
+    min-width: 20vw;
+}
+
+.new_account {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 25px
+}
+
+/*
+ * Main Page Content
+ */
+body {
+    padding-top: 4.5rem;
+    background-color: black;
+    color: white;
+}
+
+/*
+ * Home Page
+ */
+
+.carousel-item {
+width: 1920px;
+height: 650px;
+}
+
+
+
+.fa-check {
+    font-size: larger;
+}
+
+
+#sponsors .container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#sponsors .row {
+    margin-bottom: .25rem;
+}
+
+/*
+ * Services
+ */
+#design {
+    background-image: url("http://akvariumusodai.lt/wp-content/uploads/2015/05/paslaugos-b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#installation {
+    background-image: url("http://akvariumusodai.lt/wp-content/uploads/2015/05/irengimas-b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#maintenance {
+    background-image: url("http://akvariumusodai.lt/wp-content/uploads/2015/05/prieziura.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    padding: 1rem;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 50%!important;
+    background-size: 50%;
+}
+
+.stroke {
+    background: white;
+}
+
+/*
+ * Reviews
+ */
+#reviews {
+    background-image: url("http://glass-fish-tanks.com/wp-content/uploads/2014/11/Tropical-fish-tank-wallpaper.jpg");
+}
+
+/*
+ * Footer
+ */
+
+/*
+ * Media Queries
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
